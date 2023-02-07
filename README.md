@@ -5,3 +5,6 @@ If you clone this repo follow this:
 -cd to-do-list
 -npm install
 -npm start
+
+We install react-calendar package by
+-npm install react-calendar, and we import it by: import Calendar from 'react-calendar'
