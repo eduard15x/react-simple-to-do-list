@@ -1,10 +1,11 @@
-import CalendarTable from "./Calendar";
+import Homepage from "./Homepage";
+
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Edy</h1>
-      <CalendarTable />
+      <Homepage />
     </div>
   );
 }

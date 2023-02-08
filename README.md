@@ -8,3 +8,6 @@ If you clone this repo follow this:
 
 We install react-calendar package by
 -npm install react-calendar, and we import it by: import Calendar from 'react-calendar'
+
+Install and start a local server
+-npx json-server --watch data/tasks-db.json --port 8000
