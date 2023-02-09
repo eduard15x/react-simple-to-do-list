@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Calendar from 'react-calendar';	
 import 'react-calendar/dist/Calendar.css';
 
@@ -7,8 +6,9 @@ const CalendarTable = ({todayDate, setTodayDate, showToday, changee}) => {
         <div className="calendar-container">
             <Calendar onChange={changee}/>
             <p>
-                { showToday }
+                {todayDate}
             </p>
+            <h1>dada</h1>
         </div>
     );
 }
