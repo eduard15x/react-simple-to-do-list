@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const NewTask = () => {
+const CreateTask = () => {
     const [value, setValue] = useState('');
 
     return (
@@ -11,4 +11,4 @@ const NewTask = () => {
     );
 }
  
-export default NewTask;
+export default CreateTask;

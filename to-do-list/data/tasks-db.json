@@ -1,16 +1,34 @@
 {
-    "tasks": [
-        {
-            "task": "go shopping",
-            "id": 1
-        },
-        {
-            "task": "go club",
-            "id": 2
-        },
-        {
-            "task": "go kitchen",
-            "id": 3
-        }
-    ]
+    "tasks": {
+        "9-2-2023": [
+            {
+                "task": "9 GO NOW",
+                "id": 1
+            },
+            {
+                "task": "9 GO AFTER",
+                "id": 2
+            }
+        ],
+        "10-2-2023": [
+            {
+                "task": "10 GO NOW",
+                "id": 1
+            },
+            {
+                "task": "10 GO AFTER",
+                "id": 2
+            }
+        ],
+        "11-2-2023": [
+            {
+                "task": "11 GO NOW",
+                "id": 1
+            },
+            {
+                "task": "11 GO AFTER",
+                "id": 2
+            }
+        ]
+    }
 }
