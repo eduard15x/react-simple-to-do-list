@@ -1,10 +1,22 @@
 {
-  "tasks": {
-    "x": [
-      {
-        "task": "dadqrqx523521da",
-        "isDOne": false
-      }
-    ]
-  }
+  "tasks": [
+    {
+      "id": 1,
+      "task": "ce am de facut",
+      "date": "10-2-2023",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "task": "ce nu am de facut",
+      "date": "10-2-2023",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "task": "ce am de",
+      "date": "12-2-2023",
+      "isDone": false
+    }
+  ]
 }

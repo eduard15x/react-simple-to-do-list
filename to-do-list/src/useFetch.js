@@ -23,16 +23,13 @@ const useFetch = (URL) => {
                 setIsPending(false);
                 setError(err.message);
             })
-        return () => {
-            console.log('testtest')
-            console.log(data)
-        }
+        return () => console.log('testtest')
     }, [URL]);
 
     return {
         data,
         isPending,
-        error,
+        error
     }
 }
  
