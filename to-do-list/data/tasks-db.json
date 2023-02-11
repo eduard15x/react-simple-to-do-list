@@ -17,6 +17,34 @@
       "task": "ce am de",
       "date": "12-2-2023",
       "isDone": false
+    },
+    {
+      "isDone": true,
+      "id": 4
+    },
+    {
+      "task": "Test task",
+      "date": "19-2-2023",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "task": "",
+      "date": "7-2-2023",
+      "isDone": false,
+      "id": 7
+    },
+    {
+      "task": "4331",
+      "date": "22-2-2023",
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "task": "new task for 24",
+      "date": "24-2-2023",
+      "isDone": false,
+      "id": 9
     }
   ]
 }

@@ -2,6 +2,7 @@ import CalendarTable from "./CalendarTable";
 import List from "./List";
 import useFetch from "./useFetch";
 import { useEffect, useState } from 'react';
+import CreateTask from "./CreateTask";
 
 function App() {
   // request data from data/task-db.json 
@@ -16,11 +17,13 @@ function App() {
     setFilteredArr(tasks?.filter(el => el.date === selectedDate));
   }, [selectedDate, tasks])
 
+
   return (
     <div className="App">
       <h1>My to-do list</h1>
+      <CreateTask currentDate={selectedDate}/>
       <List array={ filteredArr } isPending={isPending} error={error} valoare={selectedDate}/>
-      <CalendarTable z={setDate} y={selectedDate}/>
+      <CalendarTable z={setDate}/>
     </div>
   );
 }
