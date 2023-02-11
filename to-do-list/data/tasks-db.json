@@ -1,50 +1,111 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "task": "ce am de facut",
-      "date": "10-2-2023",
-      "isDone": false
-    },
-    {
-      "id": 2,
-      "task": "ce nu am de facut",
-      "date": "10-2-2023",
-      "isDone": false
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
+      "isDone": true,
+      "id": 1
     },
     {
       "id": 3,
-      "task": "ce am de",
-      "date": "12-2-2023",
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
       "isDone": false
     },
     {
+      "task": "Plimba cainele",
+      "date": "11-2-2023",
       "isDone": true,
       "id": 4
     },
     {
-      "task": "Test task",
-      "date": "19-2-2023",
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
       "isDone": false,
       "id": 5
     },
     {
-      "task": "",
-      "date": "7-2-2023",
-      "isDone": false,
-      "id": 7
+      "id": 6,
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
+      "isDone": false
     },
     {
-      "task": "4331",
-      "date": "22-2-2023",
+      "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
+      "date": "11-2-2023",
       "isDone": false,
+      "id": 7
+    },{
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
+      "isDone": true,
       "id": 8
     },
     {
-      "task": "new task for 24",
-      "date": "24-2-2023",
+      "id": 9,
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
+      "isDone": false
+    },
+    {
+      "task": "Plimba cainele",
+      "date": "11-2-2023",
+      "isDone": true,
+      "id": 10
+    },
+    {
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
       "isDone": false,
-      "id": 9
+      "id": 11
+    },
+    {
+      "id": 12,
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
+      "isDone": false
+    },
+    {
+      "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
+      "date": "11-2-2023",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
+      "isDone": true,
+      "id": 14
+    },
+    {
+      "id": 15,
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
+      "isDone": false
+    },
+    {
+      "task": "Plimba cainele",
+      "date": "11-2-2023",
+      "isDone": true,
+      "id": 16
+    },
+    {
+      "task": "Du-te la fotbal",
+      "date": "11-2-2023",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "task": "Mananca un iaurt",
+      "date": "13-2-2023",
+      "isDone": false
+    },
+    {
+      "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
+      "date": "11-2-2023",
+      "isDone": false,
+      "id": 19
     }
   ]
 }

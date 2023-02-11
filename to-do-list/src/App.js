@@ -1,8 +1,8 @@
-import CalendarTable from "./CalendarTable";
-import List from "./List";
-import useFetch from "./useFetch";
+import CalendarTable from "./components/calendar-table/CalendarTable.component";
+import List from "./components/list/List.component";
+import useFetch from "./utilities/useFetch";
 import { useEffect, useState } from 'react';
-import CreateTask from "./CreateTask";
+import CreateTask from './components/create-task/CreateTask.component';
 
 function App() {
   // request data from data/task-db.json 
@@ -16,7 +16,6 @@ function App() {
   useEffect(() => {
     setFilteredArr(tasks?.filter(el => el.date === selectedDate));
   }, [selectedDate, tasks])
-
 
   return (
     <div className="App">
