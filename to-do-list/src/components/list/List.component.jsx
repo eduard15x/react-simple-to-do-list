@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './List.style.scss';
 
-const List = ({array, isPending, error, valoare}) => {
+const List = ({array, isPending, error}) => {
 
     const handleDone = (taskObj, dateObj, e) => {
         const updatedTask = {'task': taskObj, 'date': dateObj, 'isDone': true};
@@ -25,13 +25,12 @@ const List = ({array, isPending, error, valoare}) => {
 
     return (
         <div className="tasks-container">
-            <h2 className='tasks-container__title'>My tasks for {valoare}</h2>
             {isPending && <p>Loading...</p>}
             {error && <p>{ error }</p>}
             {array && 
                 <ul className="tasks-list">
                     {array.map((el) => (
-                        <li key={el.id} className='task-item'>
+                        <li key={el.id} className='task-item' data-aos="zoom-out-up">
                                 <button 
                                     className='task-item__btn-end'
                                     disabled={el.isDone} 
@@ -46,7 +45,6 @@ const List = ({array, isPending, error, valoare}) => {
                                 >
                                     X
                                 </button>
-                            {/* <p>{valoare}</p> */}
                         </li>
                     ))}
                 </ul>

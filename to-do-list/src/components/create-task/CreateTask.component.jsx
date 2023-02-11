@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
+import './CreateTask.style.scss';
 
 const CreateTask = ({currentDate}) => {
 
     const [newTask, setNewTask] = useState('');
-
 
     const handleCreate = () => {
         const task = {'task': newTask, 'date': currentDate, 'isDone': false};
@@ -18,16 +18,28 @@ const CreateTask = ({currentDate}) => {
             body: JSON.stringify(task)
         }).then(() => {
             console.log('new task added');
+            setNewTask('')
         })
+        
     }
 
-
     return (
-        <div>
-            <input required type="text" placeholder="e.g., Read a book" onChange={(e) => setNewTask(e.target.value)}/>
-            <button type="button" onClick={handleCreate}>Add task</button>
-            <p>{newTask}</p>
-            <p>{currentDate}</p>
+        <div className="adding-container">
+            <input
+                className="adding-container__input"
+                required 
+                type="text" 
+                placeholder="e.g., Read a book"
+                value={newTask}
+                onChange={(e) => setNewTask(e.target.value)}
+            />
+            <button
+                className="adding-container__btn-add-task"
+                type="button" 
+                onClick={handleCreate}
+            >
+                Add task
+            </button>
         </div>
     );
 }

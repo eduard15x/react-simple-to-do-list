@@ -1,28 +1,10 @@
 {
   "tasks": [
     {
-      "task": "Du-te la fotbal",
-      "date": "11-2-2023",
-      "isDone": true,
-      "id": 1
-    },
-    {
-      "id": 3,
       "task": "Mananca un iaurt",
       "date": "13-2-2023",
-      "isDone": false
-    },
-    {
-      "task": "Plimba cainele",
-      "date": "11-2-2023",
       "isDone": true,
-      "id": 4
-    },
-    {
-      "task": "Du-te la fotbal",
-      "date": "11-2-2023",
-      "isDone": false,
-      "id": 5
+      "id": 3
     },
     {
       "id": 6,
@@ -31,33 +13,10 @@
       "isDone": false
     },
     {
-      "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
-      "date": "11-2-2023",
-      "isDone": false,
-      "id": 7
-    },{
-      "task": "Du-te la fotbal",
-      "date": "11-2-2023",
-      "isDone": true,
-      "id": 8
-    },
-    {
       "id": 9,
       "task": "Mananca un iaurt",
       "date": "13-2-2023",
       "isDone": false
-    },
-    {
-      "task": "Plimba cainele",
-      "date": "11-2-2023",
-      "isDone": true,
-      "id": 10
-    },
-    {
-      "task": "Du-te la fotbal",
-      "date": "11-2-2023",
-      "isDone": false,
-      "id": 11
     },
     {
       "id": 12,
@@ -68,14 +27,8 @@
     {
       "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
       "date": "11-2-2023",
-      "isDone": false,
-      "id": 13
-    },
-    {
-      "task": "Du-te la fotbal",
-      "date": "11-2-2023",
       "isDone": true,
-      "id": 14
+      "id": 13
     },
     {
       "id": 15,
@@ -84,15 +37,9 @@
       "isDone": false
     },
     {
-      "task": "Plimba cainele",
-      "date": "11-2-2023",
-      "isDone": true,
-      "id": 16
-    },
-    {
       "task": "Du-te la fotbal",
       "date": "11-2-2023",
-      "isDone": false,
+      "isDone": true,
       "id": 17
     },
     {
@@ -104,8 +51,74 @@
     {
       "task": "Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti Plimba cainele la gara, dupa vin-o sa bem ceva la mine acasa daca doresti",
       "date": "11-2-2023",
-      "isDone": false,
+      "isDone": true,
       "id": 19
+    },
+    {
+      "task": "Hello mamasita",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "task": "Hello mamasita",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 22
+    },
+    {
+      "task": "Hello mamasita",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 23
+    },
+    {
+      "task": "Hello mamasita",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 24
+    },
+    {
+      "task": "Hello mamasita",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 25
+    },
+    {
+      "task": "du-te la fotbal",
+      "date": "13-2-2023",
+      "isDone": false,
+      "id": 26
+    },
+    {
+      "task": "Read a book",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 27
+    },
+    {
+      "task": "Try this",
+      "date": "12-2-2023",
+      "isDone": false,
+      "id": 28
+    },
+    {
+      "task": "dadadadada",
+      "date": "14-2-2023",
+      "isDone": false,
+      "id": 29
+    },
+    {
+      "task": "try one",
+      "date": "12-2-2023",
+      "isDone": true,
+      "id": 30
+    },
+    {
+      "task": "try two",
+      "date": "12-2-2023",
+      "isDone": false,
+      "id": 31
     }
   ]
 }

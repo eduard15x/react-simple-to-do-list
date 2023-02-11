@@ -15,14 +15,18 @@ function App() {
 
   useEffect(() => {
     setFilteredArr(tasks?.filter(el => el.date === selectedDate));
+    console.log(filteredArr)
   }, [selectedDate, tasks])
 
   return (
     <div className="App">
-      <h1>My to-do list</h1>
+      <div className="tests" aria-label='heading'></div>
+      <div className="date-container">
+        <h2 className="subtitle-app">My tasks for <span className="subtitle-date" id="xxxx">{selectedDate}</span></h2>
+        <CalendarTable z={setDate}/>
+      </div>
       <CreateTask currentDate={selectedDate}/>
-      <List array={ filteredArr } isPending={isPending} error={error} valoare={selectedDate}/>
-      <CalendarTable z={setDate}/>
+      <List array={ filteredArr } isPending={isPending} error={error}/>
     </div>
   );
 }
