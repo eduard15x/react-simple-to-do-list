@@ -15,7 +15,6 @@ function App() {
 
   useEffect(() => {
     setFilteredArr(tasks?.filter(el => el.date === selectedDate));
-    console.log(filteredArr)
   }, [selectedDate, tasks])
 
   return (
@@ -25,8 +24,8 @@ function App() {
         <h2 className="subtitle-app">My tasks for <span className="subtitle-date" id="xxxx">{selectedDate}</span></h2>
         <CalendarTable z={setDate}/>
       </div>
-      <CreateTask currentDate={selectedDate}/>
-      <List array={ filteredArr } isPending={isPending} error={error}/>
+      <CreateTask currentDate={selectedDate} updatedTask={ setFilteredArr} array={ filteredArr } createTaskNew={ setFilteredArr }/>
+      <List array={ filteredArr } isPending={isPending} error={error} updatedTasksNew={ setFilteredArr }/>
     </div>
   );
 }

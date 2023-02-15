@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import './List.style.scss';
 
-const List = ({array, isPending, error}) => {
+const List = ({array, isPending, error, updatedTasksNew}) => {
 
     const handleDone = (taskObj, dateObj, e) => {
         const updatedTask = {'task': taskObj, 'date': dateObj, 'isDone': true};
@@ -12,6 +11,9 @@ const List = ({array, isPending, error}) => {
             body: JSON.stringify(updatedTask)
         }).then(() => {
             console.log('task edited');
+            const currentIndex = array.findIndex(task => task.id === e);
+            array[currentIndex].isDone = true;
+            updatedTasksNew([...array]);
         })
     }
 
@@ -20,6 +22,8 @@ const List = ({array, isPending, error}) => {
             method: 'DELETE'
         }).then(() => {
             console.log('task deleted');
+            const currentIndex = array.findIndex(task => task.id === e);
+            updatedTasksNew([...array.filter((el, index) => index !== currentIndex)]);
         })
     }
 

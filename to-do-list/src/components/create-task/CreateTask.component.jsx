@@ -1,26 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import './CreateTask.style.scss';
 
-const CreateTask = ({currentDate}) => {
+const CreateTask = ({currentDate, array, createTaskNew}) => {
 
     const [newTask, setNewTask] = useState('');
 
     const handleCreate = () => {
         const task = {'task': newTask, 'date': currentDate, 'isDone': false};
         if (!newTask) {
-            console.log('task emptyu')
+            console.log('task value is empty')
             return
-        }
+        }   
 
         fetch('http://localhost:5000/tasks', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(task)
-        }).then(() => {
+        }).then((response) => {
             console.log('new task added');
-            setNewTask('')
+            setNewTask('');
+            response.json().then((serverTask) => {
+                array.push(serverTask);
+                createTaskNew([...array]);
+            })
         })
-        
     }
 
     return (
